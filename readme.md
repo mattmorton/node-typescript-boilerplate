@@ -1,1 +1,1 @@
-Basic NodeJS server with user authentication.
+Simple NodeJS server with user authentication.
