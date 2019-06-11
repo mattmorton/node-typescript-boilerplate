@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "start": "nodemon --inspect src/index.ts",
     "build": "node_modules/.bin/tsc",
     "prod": "NODE_ENV=production node ./bin/index.js"
@@ -39,14 +38,11 @@
     "@types/express": "^4.16.1",
     "@types/express-validator": "^3.0.0",
     "@types/express-winston": "^3.0.1",
-    "@types/jest": "^24.0.6",
     "@types/jsonwebtoken": "^8.3.0",
     "@types/lodash": "^4.14.121",
     "@types/moment": "^2.13.0",
     "@types/morgan": "^1.7.35",
     "@types/nodemailer": "^4.6.6",
-    "@types/request-promise": "^4.1.42",
-    "jest": "^24.1.0",
-    "ts-jest": "^24.0.0"
+    "@types/request-promise": "^4.1.42"
   }
 }
